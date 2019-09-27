@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "nineteen-ninety-one",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/.git/**"
+    ]
+  }
+}
