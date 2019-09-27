@@ -8,7 +8,8 @@
     "start": "serve ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Christina Borins <christina.e.hall@gmail.com>",
+  "repository": "https://github.com/ChrissyElie/1991VR.com",
   "license": "MIT",
   "devDependencies": {
     "serve": "^11.2.0"
