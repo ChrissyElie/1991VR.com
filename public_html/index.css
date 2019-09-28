@@ -2,7 +2,6 @@
 body, html {
   height: 100%;
   background-color: #333333;
-  color: white;
   font-family: "Courier New", Courier, monospace
 }
 
@@ -17,4 +16,26 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* From https://www.w3schools.com/howto/howto_css_full_page.asp */
+
+.splash {
+  /* The image used */
+  background-image: url("/1991_website_vertical.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text {
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  color: white;
 }
