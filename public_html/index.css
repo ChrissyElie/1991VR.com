@@ -1,6 +1,6 @@
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body, html {
   height: 100%;
+  margin: 0;
   background-color: #333333;
   font-family: "Courier New", Courier, monospace
 }
@@ -9,31 +9,23 @@ a {
   color: #bdb5b5;
 }
 
-/* Position text in the middle */
-.middle {
+/*.splash {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* From https://www.w3schools.com/howto/howto_css_full_page.asp */
-
-.splash {
-  /* The image used */
-  background-image: url("/1991_website_vertical.png");
-
-  /* Full height */
+  width: 100%;
   height: 100%;
-
-  /* Center and scale the image nicely */
+  background-image: url("/1991_website_vertical.png");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-attachment: scroll;
+  overflow: scroll;
+}*/
+
+.splash-image {
+  width: 100%;
 }
 
-.text {
+
+.splash-text {
   position: absolute;
   top: 25%;
   left: 75%;
