@@ -9,6 +9,10 @@ a {
   color: #bdb5b5;
 }
 
+.splash {
+  width: 100%;
+}
+
 /*.splash {
   position: absolute;
   width: 100%;
@@ -21,7 +25,7 @@ a {
 }*/
 
 .splash-image {
-  width: auto;
+  width: inherit;
 }
 
 
