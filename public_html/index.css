@@ -1,6 +1,13 @@
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body, html {
-  height: 100%
+  height: 100%;
+  background-color: #333333;
+  color: white;
+  font-family: "Courier New", Courier, monospace
+}
+
+a {
+  color: #bdb5b5;
 }
 
 /* Position text in the middle */
