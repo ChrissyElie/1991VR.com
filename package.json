@@ -12,6 +12,6 @@
   "repository": "https://github.com/ChrissyElie/1991VR.com",
   "license": "MIT",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "serve": "^14.0.1"
   }
 }
