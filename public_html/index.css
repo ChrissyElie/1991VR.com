@@ -1,7 +1,9 @@
 body, html {
   height: 100%;
-  margin: 0;
-  background-color: #333333;
+  max-width: 950px;
+  margin: 0 auto !important;
+  float: none !important;
+  background-color: black;
   font-family: "Courier New", Courier, monospace
 }
 
