@@ -1,0 +1,15 @@
+body {
+  margin: 0em auto;
+  max-width: 750px;
+/*  margin: 0 auto !important;*/
+  float: none !important;
+}
+
+#content {
+  margin: 3em;
+}
+
+.sketchfab {
+  width: 100%;
+  height: 50vh;
+}
