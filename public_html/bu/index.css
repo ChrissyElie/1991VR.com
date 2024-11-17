@@ -1,0 +1,28 @@
+body, html {
+  height: 100%;
+  max-width: 950px;
+  margin: 0 auto !important;
+  float: none !important;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace
+}
+
+a {
+  color: #bdb5b5;
+}
+
+.splash {
+  width: 100%;
+}
+
+.splash-image {
+  width: inherit;
+}
+
+
+.splash-text {
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  color: white;
+}
